@@ -3,6 +3,7 @@ import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import linkdin from '../../assets/linkdin.svg'
+import github from '../../assets/github.jpg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
 
@@ -49,6 +50,10 @@ const Contact = () => {
                         <div className="contact-detail">
                         <a href="https://www.linkedin.com/in/pramod-gurav-04b658259/" target="_blank" rel="noopener noreferrer">
                             <img src={linkdin} alt="LinkedIn Profile" /></a> <p>Pramod Gurav</p>
+                        </div>
+                        <div className="contact-detail">
+                        <a href="https://github.com/pramodgurav725" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="github Profile" /></a> <p>Pramodgurav725</p>
                         </div>
                         <div className="contact-detail">
                             <img src={call_icon} alt="" /> <p>+917259524024</p>
