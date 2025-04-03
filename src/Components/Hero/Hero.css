@@ -99,13 +99,22 @@
         font-weight: 500;
         margin-bottom: 50px;
     }
-    .hero-connect{
+    .hero-connect {
+        display: flex;
         align-items: center;
+        justify-content: center;
         padding: 10px 30px;
         border-radius: 40px;
+        text-align: center;
     }
-    .hero-connect p{
-        width: 130px;
+    
+    .hero-connect p {
+        margin: 0; /* Remove default margins */
+        text-align: center; /* Center text horizontally */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Ensure it takes full space */
     }
     .hero-resume{
         padding: 20px 30px;

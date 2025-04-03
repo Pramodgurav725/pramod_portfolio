@@ -81,23 +81,16 @@
         width: 130px;
         margin-right: -20px;
     }
-    .services-format{
-        gap: 20px;
-        padding: 32px;
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; /* Reduce gap */
     }
-    .services-format h2{
-        font-size: 28px;
-    }
-    .services-format p{
-        font-size: 18px;
-        line-height: 32px;
-        max-width: 300px; 
-    }
-    .services-readmore img{
-        width: 20px;
-    }
-    .services-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+
+    .services-format {
+        width: 90%; /* Adjust width to make it smaller */
+        max-width: 320px; /* Set a max-width to control box size */
+        padding: 20px; /* Reduce padding */
     }
 }
