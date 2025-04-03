@@ -110,6 +110,22 @@
         font-size: 50px;
         padding: 0px;
     }
+    .about-title {
+        position: relative;
+        display: inline-block;
+    }
+    .about-title h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    
+    .about-title img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 130px; /* Adjust size accordingly */
+        z-index: -1;
+    }
     .about-title img{
         width: 130px;
         right: -20px;
@@ -139,6 +155,19 @@
     }
     .about-achievement{
         gap: 10px;
+    }
+    .about-achievements {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        gap: 20px; /* Adds space between sections */
+        text-align: center;
+    }
+
+    .about-achievements .stats-item {
+        width: 100%;
+        border: none; /* Remove dividers for mobile */
+        padding: 10px 0;
     }
     .about-achievement h1{
         font-size: 34px;
