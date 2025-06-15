@@ -12,7 +12,7 @@ const Hero = () => {
             <p> Enthusiastic Data Analyst with a passion for uncovering insights and making informed decisions. Strong analytical mindset with knowledge of data analysis, visualization, and problem-solving. Eager to apply my skills and grow in the field of analytics.</p>
             <div className="hero-action">
                 <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Connect With Me</p></AnchorLink></div>
-                <div className="hero-resume"><a href="https://drive.google.com/file/d/1cwzC7FyGkOLOko7P95iHLP8ALFnb15QG/view?usp=sharing">My Resume</a></div>
+                <div className="hero-resume"><a href="https://drive.google.com/file/d/1-gV85xPm5dfqK-EY8zfpULq3oqOcDvvD/view?usp=sharing">My Resume</a></div>
             </div>
         </div>
     )
