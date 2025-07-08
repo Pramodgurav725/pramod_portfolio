@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import pramod_portfolio from '../../assets/pramod_portfolio.jpg'
+import pramod_portfolio from '../../assets/pramod_gurav.jpg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
