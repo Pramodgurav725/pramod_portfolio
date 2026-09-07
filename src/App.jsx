@@ -1,0 +1,35 @@
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './Components/Navbar/Navbar'
+import Hero from './Components/Hero/Hero'
+import About from './Components/About/About'
+import Services from './Components/Services/Services'
+import MyWork from './Components/MyWork/MyWork'
+import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
+import AllProjects from './Components/AllProjects/AllProjects'
+import ProjectsByCategory from './Components/ProjectsByCategory/ProjectsByCategory'
+
+const Home = () => (
+    <>
+        <Navbar />
+        <Hero />
+        <About />
+        {/* <Services /> */}
+        <MyWork />
+        <Contact />
+        <Footer />
+    </>
+)
+
+const App = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<AllProjects />} />
+            <Route path="/projects/:category" element={<ProjectsByCategory />} />
+        </Routes>
+    )
+}
+
+export default App
